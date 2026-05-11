@@ -35,5 +35,5 @@ jobs:
           docker build -t ghcr.io/${{ github.repository }}/spring-app:latest .
 
       - name: Push Docker image
-          run: |
+        run: |
             docker push ghcr.io/${{ github.repository }}/spring-app:latest
