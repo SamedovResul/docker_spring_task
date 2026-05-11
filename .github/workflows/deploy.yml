@@ -32,8 +32,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ghcr.io/${{ github.repository }}/spring-app:latest .
+          docker build -t ghcr.io/samedovresul/docker_spring_task/spring-app:latest .
 
       - name: Push Docker image
         run: |
-            docker push ghcr.io/${{ github.repository }}/spring-app:latest
+            docker push ghcr.io/samedovresul/docker_spring_task/spring-app:latest
