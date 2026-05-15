@@ -11,13 +11,14 @@
 -  Dockerized Spring Boot application
 -  Frontend served from Spring Boot static folder
 -  REST API endpoint
--  GitHub Actions CI/CD pipeline
+-  GitHub Actions 
 -  Automatic Docker image build and push to GHCR
 -  Deployable on AWS EC2
 
 
 ## Project Structure
 
+```
 src
 └── main
     ├── java
@@ -30,6 +31,7 @@ src
             ├── index.html
             ├── style.css
             └── app.js
+```
 
 
 ## AWS EC2 Deployment
@@ -46,4 +48,6 @@ docker run -d \
   ghcr.io/samedovresul/docker_spring_task/spring-app:latest
 
 
-  
+## Project url link
+
+- [text](http://13.60.44.103/)
